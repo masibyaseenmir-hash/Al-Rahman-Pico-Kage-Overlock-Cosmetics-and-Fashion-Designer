@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Al-Rahman Fashion Designer</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial;
+      background: #f4f4f4;
+    }
+
+    /* HEADER */
+    .header {
+      background: black;
+      color: gold;
+      text-align: center;
+      padding: 25px;
+      font-size: 30px;
+      font-weight: bold;
+    }
+
+    /* NAV */
+    .nav {
+      background: #222;
+      text-align: center;
+      padding: 12px;
+    }
+
+    .nav a {
+      color: white;
+      margin: 15px;
+      text-decoration: none;
+      font-size: 16px;
+    }
+
+    /* HERO */
+    .hero {
+      background: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .hero h1 {
+      font-size: 40px;
+      color: black;
+    }
+
+    .hero p {
+      color: gray;
+      font-size: 18px;
+    }
+
+    .btn {
+      background: gold;
+      color: black;
+      padding: 12px 20px;
+      border: none;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 15px;
+      border-radius: 5px;
+    }
+
+    /* GALLERY */
+    .section-title {
+      text-align: center;
+      margin: 30px 0;
+      font-size: 28px;
+    }
+
+    .gallery {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      padding: 20px;
+    }
+
+    .card {
+      background: white;
+      width: 220px;
+      padding: 15px;
+      text-align: center;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    /* ORDER BUTTON */
+    .order {
+      background: green;
+      color: white;
+      padding: 10px;
+      border: none;
+      margin-top: 10px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    /* FOOTER */
+    .footer {
+      background: black;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="header">
+    Al-Rahman Fashion Designer
+  </div>
+
+  <div class="nav">
+    <a href="#">Home</a>
+    <a href="#">Gallery</a>
+    <a href="#">Orders</a>
+    <a href="#">Contact</a>
+  </div>
+
+  <div class="hero">
+    <h1>Stylish & Premium Clothing</h1>
+    <p>Wedding Dresses | Casual Wear | Kids Collection</p>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/923000000000" target="_blank">
+      <button class="btn">Order on WhatsApp</button>
+    </a>
+  </div>
+
+  <h2 class="section-title">Our Collection</h2>
+
+  <div class="gallery">
+
+    <div class="card">
+      <h3>Wedding Dress</h3>
+      <p>Luxury Design</p>
+      <button class="order"
+        onclick="window.open('https://wa.me/923000000000?text=I want Wedding Dress')">
+        Order Now
+      </button>
+    </div>
+
+    <div class="card">
+      <h3>Shalwar Kameez</h3>
+      <p>Premium Fabric</p>
+      <button class="order"
+        onclick="window.open('https://wa.me/923000000000?text=I want Shalwar Kameez')">
+        Order Now
+      </button>
+    </div>
+
+    <div class="card">
+      <h3>Kids Wear</h3>
+      <p>Comfort Style</p>
+      <button class="order"
+        onclick="window.open('https://wa.me/923000000000?text=I want Kids Wear')">
+        Order Now
+      </button>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    © 2026 Al-Rahman Fashion Designer | Designed for Online Orders
+  </div>
+
+</body>
+</html>
